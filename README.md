@@ -33,8 +33,7 @@ Before you begin, ensure you have the following installed on your machine:
    PORT=4000
    MONGODB_URI=your_mongodbURI
    ```
-   Replace your_mongodbURI  with your actual MongoDB database URI. You can access your mongodbURI by: 
-         To get the MongoDB URI for a MongoDB Atlas cluster, follow these steps:
+   Replace `your_mongodbURI`  with your actual MongoDB database URI. To get the MongoDB URI for a MongoDB Atlas cluster, follow these steps:
 
 1. **Log in to MongoDB Atlas:**
    - Go to the [MongoDB Atlas website](https://www.mongodb.com/cloud/atlas).
@@ -70,12 +69,14 @@ Before you begin, ensure you have the following installed on your machine:
 8. **Replace Placeholder Values:**
    - Replace `<username>`, `<password>`, and `<database>` with the values you created in step 6.
 
-Your final MongoDB URI should be ready to be used in your Node.js application. You can use it as the value for the `MONGODB_URI` variable in your `.env` file or directly in your application code.
+Your final MongoDB URI should be ready for your Node.js application. You can use it as the value for the `MONGODB_URI` variable in your `.env` 
 
-Remember to keep your MongoDB URI secure and not expose it publicly or commit it to version control, especially if it contains sensitive information like the username and password. Use environment variables or configuration files for better security.
    
    4. Start the application:
    
    ```bash
    npm start
    ```
+This will start the application on your machine. You can test this application by going to `http://localhost:4000/user/signin` or `http://localhost:4000/user/signup` to access the `signin` and `signup` routes respectively.
+
+
