@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed on your machine:
    ```
    4. Set up environment variables:
    
-   Create a .env file in the root of your project and add the following:
+   Create a `.env` file in the root of your project and add the following:
    
    ```bash
    PORT=4000
@@ -83,6 +83,3 @@ Your final MongoDB URI should be ready for your Node.js application. You can use
 
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
