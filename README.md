@@ -72,11 +72,15 @@ Before you begin, ensure you have the following installed on your machine:
 Your final MongoDB URI should be ready for your Node.js application. You can use it as the value for the `MONGODB_URI` variable in your `.env` 
 
    
-   4. Start the application:
+   5. Start the application:
    
    ```bash
    npm start
    ```
-This will start the application on your machine. You can test this application by going to `http://localhost:4000/user/signin` or `http://localhost:4000/user/signup` to access the `signin` and `signup` routes respectively.
+   This will start the application on your machine. You can test this application by going to `http://localhost:4000/user/signin` or `http://localhost:4000/user/signup` to access the `signin` and `signup` routes respectively.
 
+## Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
